@@ -1,5 +1,5 @@
-const assert = require('chai').assert;
-const app = require('../app'); // Make sure this returns the correct function or value
+import { assert } from 'chai'; // Importing chai correctly
+import app from '../app'; // Ensure that 'app' is correctly exported from '../app'
 
 describe('Simple test', function() {
     it('should return hello message', function() {

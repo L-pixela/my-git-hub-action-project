@@ -1,7 +1,8 @@
 {
   "name": "my-git-hub-action-project",
   "version": "1.0.0",
-  "main": "app.js",
+  "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "node test/test.js"
   },

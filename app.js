@@ -7,7 +7,6 @@ app.get('/', (req, res)=> {
 app.listen(port,() =>{
     console.log('App listening at http://localhost:${port}');
 });
-
-module.exports = function() {
+export default function() {
     return 'Hello, Github Actions!';
-  };
+}
